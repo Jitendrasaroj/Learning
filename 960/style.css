@@ -1,0 +1,43 @@
+/*  --Column size-- */
+.onefourthcolumn {width:220px; }
+.onethirdcolumn {width:300px; }
+.onefifthcolumn {width:184px; }
+.onehalfcolumn {width:460px; }
+.twothirdcolumn {width:620px; }
+.threefourthcolumn{width:700px; }
+.onetwentycolumn{width:736px; }
+.full_column {width:940px; text-align: left; }
+.full_column_container {width:940px; text-align: left; }
+h1 {
+	margin-top: 0px;
+	text-align: center;
+}
+.full_column_container a {
+	text-decoration: none;
+}
+.full_column_container a:hover{
+	text-decoration: underline;
+}
+.fullcolumn {
+	text-align: center;
+}
+ 
+ /* --Column margin: & float-- */
+ .onefourthcolumn,.onethirdcolumn,
+ .onefifthcolumn,.onehalfcolumn,
+ .twothirdcolumn,.threefourthcolumn,
+ .full_column,.onetwentycolumn,.full_column_container {
+ 	position: relative;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	margin-bottom: 10px;
+ 	float: left;
+ 	top: 0px;
+ 	left: 0px;
+
+ }
+ /* --clear -Reset to start new row-- */
+ .resetfloatstartnewrow{clear: left;}
+ p {
+ 	text-align: justify;
+ }
