@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+	
+	<div class="container" id="main">
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+
+				<a class="navbar-brand" href="/"><img src="logo.jpg" alt="My Logo" width="70px"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+							
+							<ul class="dropdown-menu">
+
+								<li><a href="#">WEB Design</a></li>
+								<li><a href="#">WEB Development</a></li>
+								<li><a href="#">SEO</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">more services</li>
+								<li><a href="#">Content creater</a></li>
+								<li><a href="#">multimrdia</a></li>
+
+							</ul><!--dropdownmanu-->
+						</li>
+					</ul><!--endnav-->	
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search this site.." id="searchinput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form><!--end form-->	
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></a></strong>
+								<ul class="dropdown-menu">
+
+									<li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> update profile</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> billing</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header"><a href="#"><span class="glyphicon glyphicon-off"></span> sign out</a></li>
+
+								</ul><!--dropdownmanu-->
+
+
+							</li>	
+						</li>	
+					</ul><!--end nav pull-right-->	
+				</div> <!--end collapse-->
+			</div><!--end container-->
+		</div><!--end navbar -->
+
+	</div><!--end container -->
+	<div class="carousel slide" id="mycarousel">
+		<!--Indicators-->
+		<ol class="carousel-indicators">
+			<li class="active" data-silde-to="0" data-target="#mycarousel"></li>
+			<li data-silde-to="1" data-target="#mycarousel"></li>
+			<li data-silde-to="2" data-target="#mycarousel"></li>
+		</ol>
+		<!--wrapper for sildes-->
+		<div class="carousel-inner">
+			<div class="item active" id="slide1">
+				<img src="http://image.slidesharecdn.com/microstrippatchantennaforwimaxapplications-150224205530-conversion-gate02/95/microstrip-patch-antenna-for-wimax-applications-6-638.jpg?cb=1427145034">
+				<div class="carousel-caption">
+					<h4>Bootstrap 3</h4>
+					<p>Learn how to build your first responsive website with the brand ner Twitter bootstrap 3!</p>
+				</div><!--end carousel-caption-->
+			</div><!--end item-->
+			<div class="item" id="slide2">
+				<img src="http://electronicsforu.com/wp-content/uploads/2016/03/771_Fig_3.jpg">
+				<div class="carousel-caption">
+					<h4>learn to code a website in 4 hr 3</h4>
+					<p>PSD 2 HTML &amp; css3 is popular </p>
+				</div><!--end carousel-caption-->
+			</div><!--end item-->
+			<div class="item" id="slide3">
+				<img src="https://www.comsol.com/model/image/11742/big.png">
+				<div class="carousel-caption">
+					<h4>web hosting101</h4>
+					<p>how to buy a perfactdomain name</p>
+				</div><!--end carousel-caption-->
+			</div><!--end item-->
+		</div><!--coursel-innner-->
+		<!--controls-->
+		<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+
+
+
+
+	</div><!--end mycarousel-->
+	<div class"row" id="bigcallout">
+		<div class="col-12">
+			<div class="alert alert-success alert-block fade in" id="successalert">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<h3>SUCCESS</h3>
+				<p>add by jquery</p>
+
+			</div>
+			<!--visible only on small devices-->
+			<div class="well well-small visible-sm">
+			<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call</a>	</div><!--end wellsmall-->
+
+			<div class="well">
+				<div class="page-header">
+					<h1>A fancy header <small>A subheader for extra awwesome.</small></h1>
+				</div><!--end pageheader-->
+				<p class="lead">This is awesome part of web designing</p>
+				<a href="#" class="btn btn-large btn-primary">click a big nice button</a>
+				<a href="#" class="btn btn-large btn-link">or a secondary click</a>
+			</div><!--end well-->
+		</div><!--end col-12-->
+	</div><!--end bigcallout-->
+	<div class="row" id="featureheading">
+		<div class="col-12">
+			<h2>more features</h2>
+			<p class="lead">this is the awesoetb but littile bit difficult to find errors</p>			
+		</div><!--end col-12-->
+	</div><!--endfeatureheading-->
+	<div class="row" id="features">
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Markup with HTML5</h3>
+				</div><!--end panelheading-->
+					<img src="03 - Sans Photoshop/images/badge_html5.jpg" class="img-circle">
+					<p>ahsdhjd agagd gadadga aakjau jfajgfg kagfeufge </p>
+					<a href="#" target="_blank" class="btn btn-warning btn-block">learn html5</a>
+			</div><!--end panel-->
+		</div><!--end fearute-->
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Markup with CSS</h3>
+				</div><!--end panelheading-->
+					<img src="03 - Sans Photoshop/images/badge_css3.jpg" class="img-circle">
+					<p>ahsdhjd agagd gadadga aakjau jfajgfg kagfeufge </p>
+					<a href="#" target="_blank" class="btn btn-warning btn-block">learn css3</a>
+			</div><!--end panel-->
+		</div><!--end fearute-->
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">Markup with bootstrap</h3>
+				</div><!--end panelheading-->
+					<img src="03 - Sans Photoshop/images/badge_bootstrap.jpg" class="img-circle">
+					<p>ahsdhjd agagd gadadga aakjau jfajgfg kagfeufge </p>
+					<a href="#" target="_blank" class="btn btn-warning btn-block">learn bootstrap</a>
+			</div><!--end panel-->
+		</div><!--end fearute-->
+	</div><!--end feature-->
+	<div class="row" id="moreinfo">
+	</div><!--end moreinfo-->
+	<div class="row" id="morecourse">
+	</div><!--end morecourse-->
+	<footer>
+
+	</footer>
+
+
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+</body>
+</html>
+
