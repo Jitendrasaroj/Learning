@@ -1,0 +1,61 @@
+<!doctype.html>
+<html>
+<head>
+		<title> Placement Detail Form </title>
+		<link rel="stylesheet" href="style.css" >
+		<script src="script.js"></script>	
+		<div id="box">
+	<h1>Practice For JavaScript</h1>
+	</div>
+
+	</head>
+	<body>
+		<form action="" method="post" name = "myForm"onsubmit = "return validateForm()">
+	<ul>
+		<li>
+	<label for="roll"> Inter Your Roll number : </label>
+	<input id="roll" name="roll" type="number" min="1300000000" required />
+</li>
+	<li>
+	<label for="name"> Inter Your Name : </label>
+	<input type="text" id="name" name="name"/>
+</li>
+	<li>
+	<label for="Branch"> Inter Your Branch : </label>
+	<input id="Branch" name="Branch"/>
+</li>
+
+<li>
+	<input type="radio" name="gender" value="male" />male
+	<input type="radio" name="gender" value="Female" />female
+</li>
+
+	<li>
+	<label for="mail"> Inter Your Mail i'd : </label>
+	<input id="mail" name="mail" required />
+
+</li>
+		<li>
+	<label for="mail"> Retype Your Mail i'd : </label>
+	<input id="mail" name="mail" required/>
+</li>
+<li>
+	<label for="DOB"> Inter Your DOB : </label>
+	<input id="DOB" name="DOB" placeholder="DD/MM/YYYY" />
+</li>
+	<li>
+	<label for="Father"> Inter Your Father Name : </label>
+	<input id="Father" name="Father"/>
+</li>
+	<li>
+	<label for="Mother"> Inter Your Mother Name : </label>
+	<input id="Mother" name="Mother"/>
+
+<li>
+	<input type="reset" value="Reset">
+	<button onclick="myFunction()">Submit</button>
+</li>
+
+</form>
+</body>
+</html>

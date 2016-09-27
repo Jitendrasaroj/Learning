@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Learn Prototype</title>
+</head>
+<body>
+<script>
+		var person = function(name,age,country,job){
+
+			this.name = name;
+			this.age = age;
+			this.country = country;
+			this.job = job;
+		}
+		var vinay = new person('vinay singh',22,'india','coder');
+		var john = new person('john Deo',35,'United States','driver');
+		var Eric = new person ('Eric Methew',28,'UK','Dancer');
+		var Jenna = new person ('jena',21,'West Virginia')
+		person.Prototype.birthyear = function(){
+			var currentyear = new Date().getFulYear();
+			return currentyear - this.age;
+
+		}
+		document.write(henna.birthyear());
+		</script>
+	</body>
+	</html>
+	

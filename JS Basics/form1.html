@@ -1,0 +1,58 @@
+ <!doctype html>
+ <html>
+ <head>
+ <title> learining Javascript</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+ <div class="header">
+ <h1 id="heading">Learing java script</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+ <div class="container">
+ 	 </div>
+ 	 <form method="post" action="something.php" name="myform" onsubmit="return validateForm()">
+ 	 	<div>
+ 	 		<label>First Name</label>
+ 	 		<input type="text" name="firstName" id="firstName" />
+ 	 	</div>
+ 	 	<br/>
+ 	 	<div>
+ 	 		<label>last name</label>
+ 	 		<input type="text" name="lastname" id="lastname">
+ 	 	</div>
+ 	 	<br />
+ 	 	
+ 	 	<input type="submit" value="submit" />
+ 	 </form>
+ 	 </div>
+
+<script>
+function validateForm(){
+
+	var firstName = document.forms["myform"]["firstName"].value;
+	if (firstName == null || firstName == "") {
+
+		alert ('firstName is required');
+		return false;
+	}
+	if (firstName.length <3) {
+
+		alert ('firstName at least 3 chars');
+		return false;
+	}
+}
+
+
+</script>
+
+
+
+
+ </body>
+ </html>

@@ -1,0 +1,54 @@
+ <!doctype html>
+ <html>
+ <head>
+ <title> learining Javascript</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body id="body">
+ <div class="header">
+ <h1 id="heading">Learing java script</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ </div>
+ <div class="container">
+ 	 </div>
+ 	 <form method="post" action="something.php" name="myform">
+ 	 	<div>
+ 	 		<label>First Name</label>
+ 	 		<input type="text" name="firstname" id="firstname" />
+ 	 	</div>
+ 	 	<br/>
+ 	 	<div>
+ 	 		<label>last name</label>
+ 	 		<input type="text" name="lastname" id="lastname">
+ 	 	</div>
+ 	 	<br />
+ 	 	<div>
+ 	 		<label>background</label>
+ 	 		<select name="background" id="background" onchange = "changeBackground(this)">
+ 	 			<option value="red">Red</option>
+ 	 			<option value="blue">Blue</option>
+ 	 			<option value="green">green</option>
+ 	 		</select>
+ 	 	</div>
+ 	 	<br />
+ 	 	<input type="submit" value="submit" />
+ 	 </form>
+ 	 </div>
+
+<script>
+function changeBackground(x){
+var heading=document.getElementById('heading');
+heading.style.color=x.value;
+}
+</script>
+
+
+
+
+ </body>
+ </html>
