@@ -1,0 +1,36 @@
+body {
+
+	font-family: sans-serif;
+}
+
+img {
+width: 300px;
+margin-left: 10px;
+	float: left;
+}
+li {
+
+	display: inline;
+	padding: 50px;
+}
+ul a {
+
+	text-decoration: none;
+}
+
+ul a:hover {
+text-decoration: underline;
+
+}
+#content{
+	
+	margin-left:100px;
+	margin-right:100px;
+	position:relative;
+	top:0px;
+	color:red;
+	
+}
+.wrap {
+	text-align: 100px ;
+}
